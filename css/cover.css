@@ -145,3 +145,10 @@ body {
 .photo-2 img {
     width:100%
 }
+
+.profile-img-top {
+    width:min-content;
+    height:min-content;
+    overflow: hidden;
+
+}
