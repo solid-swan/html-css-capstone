@@ -1,9 +1,19 @@
-/*
-.images {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    height: 700px;
-    width: 500px;
+.home {
+    background-color: #88C6AC;
 }
-*/
+
+.culture {
+    background-color: #DD6B7D;
+}
+
+.products {
+    background-color: #fea3a3;
+}
+
+.contact {
+    background-color: #F78557;
+}
+
+.register {
+    background-color: #F0C59D;
+}

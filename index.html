@@ -1,31 +1,127 @@
-    <!DOCTYPE html>
-    <html>
+<!doctype html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>LOGO DESIGN ENTRANCE PAGE</title>
-        <!-- Bootstrap CSS link -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Cover Template · Bootstrap v4.6</title>
 
-    <body class="bg-whit text-white">
-        <main>
+    <!-- Bootsrap stylesheet link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/cover.css">
+
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        #hero {
+
+
+            /* adding background image */
+            background-image: url("/images/build/1.jpg");
+
+            /* set the height of the Jumbotron */
+            height: 450px;
+
+            /* stretch the background image so it covers the entire Jumbotron */
+            background-size: cover;
+
+            /* make sure the background does not repeat */
+            background-repeat: no-repeat;
+
+            /* set the background to be fixed so the page appears to scroll over it */
+            background-attachment: fixed;
+        }
+    </style>
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+</head>
+
+<body class="text-center home">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+        <!--Password Form-->
+        <div class="container">
             <div class="text-center">
-                <a href="home.html">
-                    <img alt="logo" src="images/logo/logo.png" class="image-fluid align-items-center justify-content-center">
+                <table style="height:800px">
+                    <tbody>
+                        <tr>
+                            <td class="align-middle">
+                                <form class="form-inline p-3" action="/action_page.php">
+                                    <label for="email" class="mr-sm-2">Email address:</label>
+                                    <input type="email" class="form-control mr-sm-2 mb-2" placeholder="Enter email"
+                                        id="email" required>
+                                    <label for="pwd" class="mr-sm-2">Password:</label>
+                                    <input type="password" class="form-control mr-sm-2 mb-2"
+                                        placeholder="Enter password" id="pwd" required>
+                                    <div class="form-check mr-sm-2">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox"> Remember me
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary"><a href="/home.html">Log
+                                            In</a></button>
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
             </div>
-        </main>
 
-        <!-- Bootstrap JavaScript files (bundle) -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-        </script>
-    </body>
+        </div>
 
-    </html>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <!--
+        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
+            href="https://twitter.com/mdo">@mdo</a>.</p>
+        -->
+            </div>
+        </footer>
+    </div>
+
+
+    <!--Bootstrap + Java Script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
