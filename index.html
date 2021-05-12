@@ -18,6 +18,12 @@
     <!-- Bootstrap core CSS -->
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!--Extra links for new password-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--my style sheet-->
     <link rel="stylesheet" href="css/cover.css">
 
 
@@ -67,6 +73,31 @@
 <body class="text-center home">
 
     <div class="cover-container w-100 h-100 p-3 mx-auto">
+
+
+        
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- no additional media querie or css is required -->
+<div class="container">
+        <div class="row justify-content-center align-items-center" style="height:100vh">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="/home.html" autocomplete="off">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="username" placeholder="username@loveandco.com" required>Username
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="password" required>Password
+                            </div>
+                            <button type="submit" id="sendlogin" class="btn btn-primary"><a href="/home.html">Login</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <!--Password Form-->
         <div class="container">
