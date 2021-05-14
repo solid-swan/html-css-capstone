@@ -69,7 +69,18 @@ body {
     background-color: transparent;
     border-bottom: .25rem solid transparent;
 }
+.readsee {
+    font-size: 1.25rem;
+}
 
+.seehead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.lead {
+    font-size: 2rem;
+}
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
     border-bottom-color: rgba(255, 255, 255, .25);

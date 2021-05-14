@@ -41,19 +41,14 @@
         #hero {
 
 
-            /* adding background image */
             background-image: url("/images/furniture/horizontal/050_MARIPOSA_0087_RGB_LD_72dpi.jpg");
 
-            /* set the height of the Jumbotron */
             height: 450px;
 
-            /* stretch the background image so it covers the entire Jumbotron */
             background-size: cover;
 
-            /* make sure the background does not repeat */
             background-repeat: no-repeat;
 
-            /* set the background to be fixed so the page appears to scroll over it */
             background-attachment: fixed;
         }
 
@@ -92,8 +87,8 @@
                                 <li><a href="/culture.html" class="text-white links">Culture</a></li>
                                 <li><a href="/contact.html" class="text-white links">Contact</a></li>
                                 <li><a href="/login.html" class="text-white links">Login</a></li>
-    
-    
+
+
                             </ul>
                         </div>
                     </div>
@@ -102,9 +97,6 @@
             <div class="navbar navbar-dark bg-dark shadow-sm">
                 <div class="container d-flex justify-content-between">
                     <a href="#" class="navbar-brand d-flex align-items-center">
-                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
-            viewBox="0 0 24 24" focusable="false"> -->
                         <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
                         <circle cx="12" cy="13" r="4" /></svg>
                         <strong>Love & Co</strong>
@@ -116,7 +108,7 @@
                 </div>
             </div>
         </header>
-    
+
 
         <!--Jumbotron-->
         <div class="jumbotron jumbotron-fluid" id="hero">
@@ -124,85 +116,53 @@
             </div>
         </div>
 
+        <div class="container">
+            <br>
+            <h1 class="seehead">Register</h1><br>
+            <hr>
+        </div>
+
         <!--Registration Form-->
-            <div id="registerMain">
-                <div class="container" style="color: black;">
-                    <div id="login-row" class="row justify-content-center align-items-center">
-                        <div id="login-column" class="col-md-6">
-                            <div id="login-box" class="col-md-12">
-                                <form id="login-form" class="form" action="" method="post">
-                                    <h3 class="text-center">Register</h3>
-                                    <div class="form-group">
-                                        <label for="name" class=>Name:</label><br>
-                                        <input type="text" name="username" id="username" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="username" >Username:</label><br>
-                                        <input type="text" name="username" id="username" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="username">Email:</label><br>
-                                        <input type="text" name="username" id="username" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password" >Create Password:</label><br>
-                                        <input type="text" name="password" id="password" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password" >Re-type Password:</label><br>
-                                        <input type="text" name="password" id="password" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="remember-me"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                        <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
-                                    </div>
-                                </form>
-                            </div>
+        <div id="registerMain">
+            <div class="container" style="color: white;">
+                <div id="login-row" class="row justify-content-center align-items-center">
+                    <div id="login-column" class="col-md-6">
+                        <div id="login-box" class="col-md-12">
+                            <form id="login-form" class="form" action="" method="post" style="font-size: 1.25rem;">
+                                <div class="form-group">
+                                    <label for="name" class=>Name:</label><br>
+                                    <input type="text" name="username" id="username" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="username">Username:</label><br>
+                                    <input type="text" name="username" id="username" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="username">Email:</label><br>
+                                    <input type="text" name="username" id="username" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Create Password:</label><br>
+                                    <input type="text" name="password" id="password" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Re-type Password:</label><br>
+                                    <input type="text" name="password" id="password" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="remember-me"><span>Remember me</span> <span><input id="remember-me"
+                                                name="remember-me" type="checkbox"></span></label><br>
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-        
-        <!-- <div class="container">
-            <div>
-                <form action="/###">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John" required><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe" required><br>
-                    <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email" value="john@email.com" required><br>
-                    <label for="phone">Phone Number:</label><br>
-                    <input type="text" id="phone" name="phone" value="555-555-5555" required><br>
-                    <label for="password">Create Password:</label><br>
-                    <input type="text" id="password" name="password" value="1234abcd" required><br><br>
-                    <div class="form-check mr-sm-2">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox"> Subscribe To News Letter<br><br>
-                            <input type="submit" value="Register">
-
-
-                </form>
-
-                <p>If you click the "Submit" button, the form-data will be sent to a page called "/###".</p>
-            </div>
-        </div> -->
-
-        <!--Main-->
-        <!-- <main role="main" class="inner cover">
-      <h1 class="cover-heading">LOGOS</h1>
-      <p class="lead">A styling company for all things interior :)</p>
-      <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary">Find Your Style</a>
-      </p>
-    </main> -->
+        </div>
 
         <footer class="mastfoot mt-auto">
             <div class="inner">
-                <!--
-        <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
-            href="https://twitter.com/mdo">@mdo</a>.</p>
-        -->
             </div>
         </footer>
     </div>
